@@ -27,7 +27,7 @@ class SelectionSort {
 			int max_idx = 1;
 			for(int j=i+1;j<arr.length;j++) {
 				if (arr[j]<arr[max_idx])
-					max_idx = j;
+					max_idx = 1;
 			}
 		
 		// Swap the element if found the minimum
@@ -55,8 +55,6 @@ public class main {
 		/*Creation Object of the SelectionSort Class*/
 		SelectionSort sort_array = new SelectionSort();
 		sort_array.sort(arr);
-		System.out.println("The Sorted Array");
-		sort_array.printArray(arr);
 	}
 
 }
