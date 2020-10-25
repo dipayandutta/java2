@@ -1,0 +1,14 @@
+import java.util.*;
+public class ArrayListExample01 {
+	public static void main(String args[]) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Mango");
+		list.add("Apple");
+		list.add("Grapes");
+		
+		System.out.println(list);
+		
+		ArrayList<Integer> list_int = new ArrayList<Integer>();
+		
+	}
+}
